@@ -1,0 +1,50 @@
+{
+	"data": {
+		"attributes": {
+			"full_name": "Rhys"
+		},
+		"id": "50925772",
+		"relationships": {
+			"memberships": {
+				"data": [
+					{
+						"id": "84f71c0b-de4a-471f-a1a4-4ce86e4e6433",
+						"type": "member"
+					}
+				]
+			}
+		},
+		"type": "user"
+	},
+	"included": [
+		{
+			"attributes": {
+				"currently_entitled_amount_cents": 100,
+				"last_charge_status": "Paid",
+				"lifetime_support_cents": 150,
+				"patron_status": "active_patron",
+				"pledge_relationship_start": "2021-02-19T01:25:46.496+00:00"
+			},
+			"id": "84f71c0b-de4a-471f-a1a4-4ce86e4e6433",
+			"relationships": {
+				"currently_entitled_tiers": {
+					"data": [
+						{
+							"id": "2550157",
+							"type": "tier"
+						}
+					]
+				}
+			},
+			"type": "member"
+		},
+		{
+			"attributes": {},
+			"id": "2550157",
+			"type": "tier"
+		}
+	],
+	"links": {
+		"self": "https://www.patreon.com/api/oauth2/v2/user/50925772"
+	}
+}
